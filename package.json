@@ -1,6 +1,7 @@
 {
   "private": true,
   "scripts": {
+    "bootstrap": "npx lerna bootstrap",
     "prepare": "yarn workspace theme-ui prepare",
     "start": "yarn workspace docs start",
     "build": "yarn workspace docs build",
@@ -10,6 +11,8 @@
   },
   "workspaces": [
     "theme-ui",
+    "babel-preset",
+    "gatsby-plugin-theme-ui",
     "docs"
   ]
 }

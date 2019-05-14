@@ -1,0 +1,20 @@
+{
+  "name": "babel-preset-theme-ui",
+  "version": "0.0.12",
+  "main": "dist/index.js",
+  "author": "Brent Jackson <jxnblk@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "prepare": "babel src -d dist"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-react-jsx": "^7.3.0",
+    "@emotion/babel-plugin-jsx-pragmatic": "^0.1.2",
+    "babel-plugin-emotion": "^10.0.9"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4"
+  }
+}

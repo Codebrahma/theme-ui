@@ -1,8 +1,5 @@
-/** @jsx jsx */
-import { jsx } from 'theme-ui'
-import {
-  Styled,
-} from 'theme-ui'
+import React from 'react'
+import { Styled } from 'theme-ui'
 import { Helmet } from 'react-helmet'
 import {
   EditProvider,

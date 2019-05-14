@@ -1,0 +1,8 @@
+{
+  "version": "0.0.12",
+  "packages": [
+    "theme-ui",
+    "babel-preset",
+    "gatsby-plugin-theme-ui"
+  ]
+}
